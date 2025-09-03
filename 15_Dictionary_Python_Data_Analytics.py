@@ -78,3 +78,12 @@ print(stu)  # it will raise an error because the dictionary is deleted
 my_dict = {'name': 'iqra', 'age': 20, 'city': 'karachi', 'marks': {'math': 90, 'science': 80}}
 print(my_dict)
 print(my_dict[1]["math"])
+
+
+
+# Sorting in dictionary
+
+z = {"id":87, "name":6, "age":20, "city":65, "department":86}
+
+z = sorted(z.values())
+print(z)
